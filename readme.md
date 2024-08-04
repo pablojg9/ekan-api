@@ -64,12 +64,12 @@ Após cadastrar um beneficiário, é necessário autenticar o usuário através 
         - Exemplo de corpo da requisição:
           ```json
             {
-            "username": "username",
-            "senha": "password",
-            "nome": "name",
-            "telefone": "123456789",
-            "dataNascimento": "24/09/2024",
-            "tipoDocumento": 1
+               "username": "username",
+               "senha": "password",
+               "nome": "name",
+               "telefone": "123456789",
+               "dataNascimento": "24/09/2024",
+               "tipoDocumento": 1
            }
            
           ```
@@ -77,24 +77,23 @@ Após cadastrar um beneficiário, é necessário autenticar o usuário através 
         - Exemplo de resposta:
            ```json
                {
-                "id": "df3ff974-f6cc-48c0-adc9-f9c38c2dcf03",
-                "username": "username",
-                "senha": "$2a$10$a/4xZ/yvvB.OV0xXIKsFbeSTZEIE9OT7LJezw.G8OyATB9zkOMi8a",
-                "nome": "nome",
-                "telefone": "123456789",
-                "dataNascimento": "2024-09-24T00:00:00",
-                "dataInclusao": "2024-08-03T21:05:32.410066",
-                "dataAtualizacao": "2024-08-03T21:05:32.410066",
-                "documentos": [
-                    {
-                       "tipoDocumento": 1,
-                       "descricao": "documento 1",
-                       "dataInclusao": "2024-08-03T20:47:51.881357",
-                       "dataAtualizacao": "2024-08-03T20:47:51.881357"
-                    }
-                } 
-                         
-               
+                  "id": "df3ff974-f6cc-48c0-adc9-f9c38c2dcf03",
+                  "username": "pablog9",
+                  "senha": "$2a$10$a/4xZ/yvvB.OV0xXIKsFbeSTZEIE9OT7LJezw.G8OyATB9zkOMi8a",
+                  "nome": "pablo",
+                  "telefone": "1199624225",
+                  "dataNascimento": "2024-09-24T00:00:00",
+                  "dataInclusao": "2024-08-03T21:05:32.410066",
+                  "dataAtualizacao": "2024-08-03T21:05:32.410066",
+                  "documentos": [
+                      {
+                         "tipoDocumento": 1,
+                         "descricao": "documento 1",
+                         "dataInclusao": "2024-08-03T20:47:51.881357",
+                         "dataAtualizacao": "2024-08-03T20:47:51.881357"
+                      }
+                  ]
+              } 
            ```
 
 
@@ -117,8 +116,8 @@ Após cadastrar um beneficiário, é necessário autenticar o usuário através 
         - Exemplo de resposta:
           ```json
           {
-            "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJla2FuIiwiZXhwIjoxNzIyNzMxOTYxLCJyb2xlcyI6WyJVU0VSIl19.uwGIOG8TiGO5ZNl-k1mmZaeg7LY40a6pWdAt4THFJa0",
-            "expires_in": 1722731961
+             "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJla2FuIiwiZXhwIjoxNzIyNzMxOTYxLCJyb2xlcyI6WyJVU0VSIl19.uwGIOG8TiGO5ZNl-k1mmZaeg7LY40a6pWdAt4THFJa0",
+             "expires_in": 1722731961
           }
           ```
 3. **Procurar um Beneficiário através do seu ID**
@@ -132,15 +131,15 @@ Após cadastrar um beneficiário, é necessário autenticar o usuário através 
         - Exemplo de resposta:
           ```json
           {
-           "id": "71059817-e344-4ffe-a35d-0c2eb0789633",
-           "username": "pablog9",
-           "senha": "123456",
-           "nome": "pablo teste",
-           "telefone": "1199624225",
-           "dataNascimento": "2024-09-24T00:00:00",
-           "dataInclusao": null,
-           "dataAtualizacao": "2024-08-03T20:11:24.282603",
-           "documentos": []
+             "id": "71059817-e344-4ffe-a35d-0c2eb0789633",
+             "username": "pablog9",
+             "senha": "123456",
+             "nome": "pablo teste",
+             "telefone": "1199624225",
+             "dataNascimento": "2024-09-24T00:00:00",
+             "dataInclusao": null,
+             "dataAtualizacao": "2024-08-03T20:11:24.282603",
+             "documentos": []
            }
           ```
 
@@ -155,15 +154,15 @@ Após cadastrar um beneficiário, é necessário autenticar o usuário através 
         - Exemplo de corpo da requisição:
           ```json
           {
-            "id": "6aaafa8e-4b52-4cc5-813b-71ce19472d09",
-            "username": "pablog9",
-            "senha": "$2a$10$1QxNsRb8T8cDh1JrIduYL.0iW91L9pDcyfAK2Mvb0EY96ZcpNAwzS",
-            "nome": "pablo teste",
-            "telefone": "1199624225",
-            "dataNascimento": "2024-09-24T00:00:00",
-            "dataInclusao": null,
-            "dataAtualizacao": null,
-            "documentos": []
+             "id": "6aaafa8e-4b52-4cc5-813b-71ce19472d09",
+             "username": "pablog9",
+             "senha": "$2a$10$1QxNsRb8T8cDh1JrIduYL.0iW91L9pDcyfAK2Mvb0EY96ZcpNAwzS",
+             "nome": "pablo teste",
+             "telefone": "1199624225",
+             "dataNascimento": "2024-09-24T00:00:00",
+             "dataInclusao": null,
+             "dataAtualizacao": null,
+              "documentos": []
            }
           ```
 
@@ -179,6 +178,3 @@ Após cadastrar um beneficiário, é necessário autenticar o usuário através 
            ```
             No content 204
             ```
-       
-
-
