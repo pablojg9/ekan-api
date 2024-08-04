@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ekan-api
+  profiles:
+    active: ${APP_PROFILE:test}
+
+
+security:
+  token:
+      secret: api#avaliacao
